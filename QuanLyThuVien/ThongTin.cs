@@ -23,6 +23,7 @@ namespace QuanLyThuVien
 
         private void btnThayDoi_Click(object sender, EventArgs e)
         {
+        	butThayDoi.BackColor = Color.Red; 
             DocGia _dg = new DocGia();
             _dg.HoTen = txtHoTen.Text;
             _dg.MaDocGia = txtMa.Text;
