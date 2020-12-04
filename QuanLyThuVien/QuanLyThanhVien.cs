@@ -54,7 +54,8 @@ namespace QuanLyThuVien
             {
                 MessageBox.Show("Thêm thất bại");
             }
-
+            //duy change this
+            btnThem.BackColor=Color.Red;
 
         }
         void loadDtgvGV2()
