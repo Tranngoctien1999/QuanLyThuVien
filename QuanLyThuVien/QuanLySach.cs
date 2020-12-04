@@ -19,7 +19,17 @@ namespace QuanLyThuVien
         {
             InitializeComponent();
         }
-
+        void loadDtgvGV1()
+        {
+            dataGridView1.DataSource = s.GetList();
+            dataGridView1.Columns[0].HeaderText = "Mã sách";
+            dataGridView1.Columns[1].HeaderText = "Tên sách";
+            dataGridView1.Columns[2].HeaderText = "Tên tác giả";
+            dataGridView1.Columns[3].HeaderText = "Thể loại";
+            dataGridView1.Columns[4].HeaderText = "Nhà xuất bản";
+            dataGridView1.Columns[5].HeaderText = "Giá";
+            dataGridView1.Columns[5].HeaderText = "Số lượng";
+        }
         void loadDtgvGV2()
         {
             dataGridView1.DataSource = s.GetList();
