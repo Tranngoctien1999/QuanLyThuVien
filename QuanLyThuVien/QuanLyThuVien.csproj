@@ -189,17 +189,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BUS\BUS.csproj">
-      <Project>{51ed7520-66d8-45f9-b6ed-7fadff6b5908}</Project>
-      <Name>BUS</Name>
-    </ProjectReference>
-    <ProjectReference Include="DTO\DTO.csproj">
-      <Project>{652c760e-03fe-400b-b8a1-55d634921add}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
+    <None Include="Resources\login.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\login.jpg" />
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{f93c6d6d-52d5-40fd-b0f6-d215e57bbae7}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{2ea485e0-300c-4ab4-a0f6-b976162a7d82}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

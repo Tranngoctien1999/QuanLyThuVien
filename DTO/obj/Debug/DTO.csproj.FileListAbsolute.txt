@@ -1,0 +1,5 @@
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\DTO\bin\Debug\DTO.dll
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\DTO\bin\Debug\DTO.pdb
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\DTO\obj\Debug\DTO.dll
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\DTO\obj\Debug\DTO.pdb
