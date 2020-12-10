@@ -207,5 +207,44 @@
   <ItemGroup>
     <None Include="Resources\Add-Male-User.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tải xuống %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_access-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_group_man_people_users_male-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book_Library-256_400x400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrowbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\returnbook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\child.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
