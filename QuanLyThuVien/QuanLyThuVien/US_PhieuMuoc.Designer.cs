@@ -308,8 +308,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "US_PhieuMuoc";
-            this.Size = new System.Drawing.Size(1031, 534);
+            this.Size = new System.Drawing.Size(1381, 635);
             this.Load += new System.EventHandler(this.US_PhieuMuon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);

@@ -68,8 +68,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "US_LSMuon";
-            this.Size = new System.Drawing.Size(956, 496);
+            this.Size = new System.Drawing.Size(1381, 635);
             this.Load += new System.EventHandler(this.US_LSMuon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

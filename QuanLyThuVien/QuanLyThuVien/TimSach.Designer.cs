@@ -159,8 +159,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTimSach);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "TimSach";
-            this.Size = new System.Drawing.Size(1217, 536);
+            this.Size = new System.Drawing.Size(1281, 635);
             this.Load += new System.EventHandler(this.TimSach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);

@@ -96,8 +96,9 @@
             this.Controls.Add(this.rTenSach);
             this.Controls.Add(this.rHoTen);
             this.Controls.Add(this.textBox1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "UC_DangMuon";
-            this.Size = new System.Drawing.Size(925, 511);
+            this.Size = new System.Drawing.Size(1381, 635);
             this.Load += new System.EventHandler(this.UC_DangMuon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

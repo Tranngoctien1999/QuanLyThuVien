@@ -190,7 +190,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BUS\BUS.csproj">
-      <Project>{51ed7520-66d8-45f9-b6ed-7fadff6b5908}</Project>
+      <Project>{89f2dfdb-da8a-4d25-905d-da0b83b658b8}</Project>
       <Name>BUS</Name>
     </ProjectReference>
     <ProjectReference Include="DTO\DTO.csproj">

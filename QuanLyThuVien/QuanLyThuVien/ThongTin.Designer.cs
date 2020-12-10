@@ -62,7 +62,6 @@
             this.btnHuy.TabIndex = 68;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
-        
             // 
             // btnThayDoi
             // 
@@ -197,8 +196,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "ThongTin";
-            this.Size = new System.Drawing.Size(618, 464);
+            this.Size = new System.Drawing.Size(1381, 635);
             this.Load += new System.EventHandler(this.ThongTin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

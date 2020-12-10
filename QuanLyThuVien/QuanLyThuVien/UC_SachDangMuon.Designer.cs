@@ -68,8 +68,9 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "UC_SachDangMuon";
-            this.Size = new System.Drawing.Size(922, 513);
+            this.Size = new System.Drawing.Size(1382, 635);
             this.Load += new System.EventHandler(this.UC_SachDangMuon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

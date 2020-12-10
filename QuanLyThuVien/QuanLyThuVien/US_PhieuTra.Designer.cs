@@ -285,8 +285,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "US_PhieuTra";
-            this.Size = new System.Drawing.Size(1028, 486);
+            this.Size = new System.Drawing.Size(1381, 635);
             this.Load += new System.EventHandler(this.US_PhieuTra_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

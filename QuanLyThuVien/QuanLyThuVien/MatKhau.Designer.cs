@@ -41,7 +41,7 @@
             // 
             // btnThay
             // 
-            this.btnThay.Location = new System.Drawing.Point(178, 395);
+            this.btnThay.Location = new System.Drawing.Point(168, 331);
             this.btnThay.Name = "btnThay";
             this.btnThay.Size = new System.Drawing.Size(104, 57);
             this.btnThay.TabIndex = 4;
@@ -59,7 +59,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(38, 53);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(402, 285);
+            this.panel1.Size = new System.Drawing.Size(402, 251);
             this.panel1.TabIndex = 3;
             // 
             // txtMk2

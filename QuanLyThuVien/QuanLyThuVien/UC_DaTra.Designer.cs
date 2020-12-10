@@ -95,8 +95,9 @@
             this.Controls.Add(this.rTenSach);
             this.Controls.Add(this.rHoTen);
             this.Controls.Add(this.textBox1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "UC_DaTra";
-            this.Size = new System.Drawing.Size(927, 502);
+            this.Size = new System.Drawing.Size(1341, 635);
             this.Load += new System.EventHandler(this.UC_DaTra_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

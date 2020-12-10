@@ -261,8 +261,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Location = new System.Drawing.Point(23, 49);
             this.Name = "QuanLySach";
-            this.Size = new System.Drawing.Size(1063, 565);
+            this.Size = new System.Drawing.Size(1381, 635);
             this.Load += new System.EventHandler(this.QuanLySach_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
