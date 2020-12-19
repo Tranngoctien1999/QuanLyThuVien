@@ -140,5 +140,85 @@ namespace QuanLyThuVien
             txtGia.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[5].Value);
             numericUpDown1.Text = Convert.ToString(dataGridView1.CurrentRow.Cells[6].Value);
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtGia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNxb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTheLoai_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTacGia_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMa_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

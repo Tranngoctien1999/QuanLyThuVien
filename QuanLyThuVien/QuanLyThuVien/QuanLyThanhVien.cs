@@ -32,7 +32,7 @@ namespace QuanLyThuVien
         private void btnThem_Click(object sender, EventArgs e)
         {
             DocGia dg = new DocGia();
-            txtMa.Visible = true;
+            txtMa.Visible = false;
             Random rdm = new Random();
             dg.MaDocGia = rdm.Next(0, 1000).ToString();
             dg.TenDangNhap = txtTenDN.Text;

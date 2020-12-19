@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.txtTentk = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.trangChủToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tìmKiếmSácToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,6 +44,9 @@
             this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đangMượnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đãTrảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtTentk = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -60,37 +60,9 @@
             this.thốngKêToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1416, 58);
+            this.menuStrip1.Size = new System.Drawing.Size(1782, 58);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // txtTentk
-            // 
-            this.txtTentk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTentk.Location = new System.Drawing.Point(1123, 6);
-            this.txtTentk.Multiline = true;
-            this.txtTentk.Name = "txtTentk";
-            this.txtTentk.Size = new System.Drawing.Size(195, 50);
-            this.txtTentk.TabIndex = 2;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Location = new System.Drawing.Point(23, 82);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1381, 602);
-            this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QuanLyThuVien.Properties.Resources.tải_xuống__1_1;
-            this.pictureBox1.Location = new System.Drawing.Point(1083, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // trangChủToolStripMenuItem
             // 
@@ -214,7 +186,7 @@
             // 
             this.đangMượnToolStripMenuItem.Image = global::QuanLyThuVien.Properties.Resources.child;
             this.đangMượnToolStripMenuItem.Name = "đangMượnToolStripMenuItem";
-            this.đangMượnToolStripMenuItem.Size = new System.Drawing.Size(254, 56);
+            this.đangMượnToolStripMenuItem.Size = new System.Drawing.Size(206, 32);
             this.đangMượnToolStripMenuItem.Text = "Đang mượn";
             this.đangMượnToolStripMenuItem.Click += new System.EventHandler(this.đangMượnToolStripMenuItem_Click);
             // 
@@ -222,15 +194,43 @@
             // 
             this.đãTrảToolStripMenuItem.Image = global::QuanLyThuVien.Properties.Resources.images;
             this.đãTrảToolStripMenuItem.Name = "đãTrảToolStripMenuItem";
-            this.đãTrảToolStripMenuItem.Size = new System.Drawing.Size(254, 56);
+            this.đãTrảToolStripMenuItem.Size = new System.Drawing.Size(206, 32);
             this.đãTrảToolStripMenuItem.Text = "Đã trả";
             this.đãTrảToolStripMenuItem.Click += new System.EventHandler(this.đãTrảToolStripMenuItem_Click);
+            // 
+            // txtTentk
+            // 
+            this.txtTentk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTentk.Location = new System.Drawing.Point(1123, 6);
+            this.txtTentk.Multiline = true;
+            this.txtTentk.Name = "txtTentk";
+            this.txtTentk.Size = new System.Drawing.Size(195, 50);
+            this.txtTentk.TabIndex = 2;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Location = new System.Drawing.Point(23, 82);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1730, 800);
+            this.panel1.TabIndex = 4;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::QuanLyThuVien.Properties.Resources.tải_xuống__1_1;
+            this.pictureBox1.Location = new System.Drawing.Point(1083, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1416, 696);
+            this.ClientSize = new System.Drawing.Size(1782, 853);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtTentk);

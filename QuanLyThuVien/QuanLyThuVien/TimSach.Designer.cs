@@ -50,7 +50,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1184, 230);
+            this.dataGridView1.Size = new System.Drawing.Size(1249, 276);
             this.dataGridView1.TabIndex = 7;
             // 
             // groupBox1
@@ -61,6 +61,7 @@
             this.groupBox1.Controls.Add(this.rTacGia);
             this.groupBox1.Controls.Add(this.rTenSach);
             this.groupBox1.Controls.Add(this.rMa);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(360, 109);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(338, 161);
@@ -73,7 +74,7 @@
             this.rNXB.AutoSize = true;
             this.rNXB.Location = new System.Drawing.Point(188, 123);
             this.rNXB.Name = "rNXB";
-            this.rNXB.Size = new System.Drawing.Size(113, 21);
+            this.rNXB.Size = new System.Drawing.Size(128, 24);
             this.rNXB.TabIndex = 5;
             this.rNXB.TabStop = true;
             this.rNXB.Text = "Nhà xuất bản";
@@ -84,7 +85,7 @@
             this.rTheLoai.AutoSize = true;
             this.rTheLoai.Location = new System.Drawing.Point(34, 123);
             this.rTheLoai.Name = "rTheLoai";
-            this.rTheLoai.Size = new System.Drawing.Size(80, 21);
+            this.rTheLoai.Size = new System.Drawing.Size(89, 24);
             this.rTheLoai.TabIndex = 4;
             this.rTheLoai.TabStop = true;
             this.rTheLoai.Text = "Thể loại";
@@ -95,7 +96,7 @@
             this.rTinhtrang.AutoSize = true;
             this.rTinhtrang.Location = new System.Drawing.Point(188, 80);
             this.rTinhtrang.Name = "rTinhtrang";
-            this.rTinhtrang.Size = new System.Drawing.Size(94, 21);
+            this.rTinhtrang.Size = new System.Drawing.Size(105, 24);
             this.rTinhtrang.TabIndex = 3;
             this.rTinhtrang.TabStop = true;
             this.rTinhtrang.Text = "Tình trạng";
@@ -106,7 +107,7 @@
             this.rTacGia.AutoSize = true;
             this.rTacGia.Location = new System.Drawing.Point(34, 80);
             this.rTacGia.Name = "rTacGia";
-            this.rTacGia.Size = new System.Drawing.Size(76, 21);
+            this.rTacGia.Size = new System.Drawing.Size(85, 24);
             this.rTacGia.TabIndex = 2;
             this.rTacGia.TabStop = true;
             this.rTacGia.Text = "Tác giả";
@@ -117,7 +118,7 @@
             this.rTenSach.AutoSize = true;
             this.rTenSach.Location = new System.Drawing.Point(188, 39);
             this.rTenSach.Name = "rTenSach";
-            this.rTenSach.Size = new System.Drawing.Size(90, 21);
+            this.rTenSach.Size = new System.Drawing.Size(101, 24);
             this.rTenSach.TabIndex = 1;
             this.rTenSach.TabStop = true;
             this.rTenSach.Text = "Tên Sách";
@@ -128,7 +129,7 @@
             this.rMa.AutoSize = true;
             this.rMa.Location = new System.Drawing.Point(34, 39);
             this.rMa.Name = "rMa";
-            this.rMa.Size = new System.Drawing.Size(82, 21);
+            this.rMa.Size = new System.Drawing.Size(94, 24);
             this.rMa.TabIndex = 0;
             this.rMa.TabStop = true;
             this.rMa.Text = "Mã sách";
@@ -137,17 +138,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(357, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 17);
+            this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Tìm sách";
             // 
             // txtTimSach
             // 
+            this.txtTimSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTimSach.Location = new System.Drawing.Point(437, 65);
             this.txtTimSach.Name = "txtTimSach";
-            this.txtTimSach.Size = new System.Drawing.Size(204, 22);
+            this.txtTimSach.Size = new System.Drawing.Size(204, 27);
             this.txtTimSach.TabIndex = 4;
             this.txtTimSach.TextChanged += new System.EventHandler(this.txtTimSach_TextChanged);
             // 

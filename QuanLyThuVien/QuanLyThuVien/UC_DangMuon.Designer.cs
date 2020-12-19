@@ -38,18 +38,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(256, 46);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(279, 46);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(269, 22);
+            this.textBox1.Size = new System.Drawing.Size(269, 27);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // rHoTen
             // 
             this.rHoTen.AutoSize = true;
+            this.rHoTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rHoTen.Location = new System.Drawing.Point(256, 99);
             this.rHoTen.Name = "rHoTen";
-            this.rHoTen.Size = new System.Drawing.Size(71, 21);
+            this.rHoTen.Size = new System.Drawing.Size(80, 24);
             this.rHoTen.TabIndex = 1;
             this.rHoTen.TabStop = true;
             this.rHoTen.Text = "Họ tên";
@@ -58,9 +60,10 @@
             // rTenSach
             // 
             this.rTenSach.AutoSize = true;
+            this.rTenSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rTenSach.Location = new System.Drawing.Point(415, 99);
             this.rTenSach.Name = "rTenSach";
-            this.rTenSach.Size = new System.Drawing.Size(88, 21);
+            this.rTenSach.Size = new System.Drawing.Size(99, 24);
             this.rTenSach.TabIndex = 2;
             this.rTenSach.TabStop = true;
             this.rTenSach.Text = "Tên sách";
@@ -70,19 +73,20 @@
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 151);
+            this.dataGridView1.Location = new System.Drawing.Point(98, 189);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(886, 328);
+            this.dataGridView1.Size = new System.Drawing.Size(986, 328);
             this.dataGridView1.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(185, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 17);
+            this.label1.Size = new System.Drawing.Size(77, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tìm kiếm";
             this.label1.Click += new System.EventHandler(this.label1_Click);
