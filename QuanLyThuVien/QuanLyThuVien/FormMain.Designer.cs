@@ -204,7 +204,7 @@
             this.txtTentk.Location = new System.Drawing.Point(1123, 6);
             this.txtTentk.Multiline = true;
             this.txtTentk.Name = "txtTentk";
-            this.txtTentk.Size = new System.Drawing.Size(195, 50);
+            this.txtTentk.Size = new System.Drawing.Size(356, 50);
             this.txtTentk.TabIndex = 2;
             // 
             // panel1

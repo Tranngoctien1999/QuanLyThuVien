@@ -46,6 +46,7 @@ namespace QuanLyThuVien
                 quảnLýPhiếuTrảToolStripMenuItem.Visible = false;
                 đangMượnToolStripMenuItem.Visible = false;
                 đãTrảToolStripMenuItem.Visible = false;
+                thốngKêToolStripMenuItem.Visible = false;
             }
             
         }

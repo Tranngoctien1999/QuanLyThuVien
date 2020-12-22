@@ -10,12 +10,12 @@ namespace DAO
     {
         public DataTable loadSach(string us)
         {
-            string sqlString = string.Format("select * from PHIEUMUON, SACH, ACCOUNT where PHIEUMUON.MaDocGia = ACCOUNT.MaDocGia and SACH.MaSach = PHIEUMUON.MaSach and ACCOUNT.TenDangNhap = '{0}'and PHIEUMUON.TinhTrang = 0", us);
+            string sqlString = string.Format("select TenSach,TheLoai,TacGia,NhaXuatBan,NgayMuon,NgayPhaiTra from PHIEUMUON, SACH, ACCOUNT where PHIEUMUON.MaDocGia = ACCOUNT.MaDocGia and SACH.MaSach = PHIEUMUON.MaSach and ACCOUNT.TenDangNhap = '{0}'and PHIEUMUON.TinhTrang = 0", us);
             return GetData(sqlString);
         }
         public DataTable Search(string tensach, string us)
         {
-            string sqlString = string.Format("select * from PHIEUMUON, SACH, ACCOUNT where PHIEUMUON.MaDocGia = ACCOUNT.MaDocGia and SACH.MaSach = PHIEUMUON.MaSach and ACCOUNT.TenDangNhap = '{0}' and SACH.TenSach like N'%{1}%'and PHIEUMUON.TinhTrang = 0", us, tensach);
+            string sqlString = string.Format("select TenSach,TheLoai,TacGia,NhaXuatBan,NgayMuon,NgayPhaiTra from PHIEUMUON, SACH, ACCOUNT where PHIEUMUON.MaDocGia = ACCOUNT.MaDocGia and SACH.MaSach = PHIEUMUON.MaSach and ACCOUNT.TenDangNhap = '{0}' and SACH.TenSach like N'%{1}%'and PHIEUMUON.TinhTrang = 0", us, tensach);
             return GetData(sqlString);
         }
     }
