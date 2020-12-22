@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89F2DFDB-DA8A-4D25-905D-DA0B83B658B8}</ProjectGuid>
+    <ProjectGuid>{F93C6D6D-52D5-40FD-B0F6-D215E57BBAE7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BUS</RootNamespace>
@@ -54,12 +54,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QuanLyThuVien\DAO\DAO.csproj">
-      <Project>{ef5f75d8-d563-40b0-8b6e-29aa7df987aa}</Project>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{590477fd-92ce-4f23-9fa7-817ec8287386}</Project>
       <Name>DAO</Name>
     </ProjectReference>
-    <ProjectReference Include="..\QuanLyThuVien\DTO\DTO.csproj">
-      <Project>{652c760e-03fe-400b-b8a1-55d634921add}</Project>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{2ea485e0-300c-4ab4-a0f6-b976162a7d82}</Project>
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,11 @@
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\bin\Debug\BUS.dll
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\bin\Debug\BUS.pdb
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\bin\Debug\DAO.dll
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\bin\Debug\DTO.dll
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\bin\Debug\DAO.pdb
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\bin\Debug\DTO.pdb
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\obj\Debug\BUS.dll
+C:\Users\Asus\Documents\GitHub\QuanLyThuVien\BUS\obj\Debug\BUS.pdb

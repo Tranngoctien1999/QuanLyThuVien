@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89F2DFDB-DA8A-4D25-905D-DA0B83B658B8}</ProjectGuid>
+    <ProjectGuid>{652C760E-03FE-400B-B8A1-55D634921ADD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BUS</RootNamespace>
-    <AssemblyName>BUS</AssemblyName>
+    <RootNamespace>DTO</RootNamespace>
+    <AssemblyName>DTO</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,27 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS_DangMuon.cs" />
-    <Compile Include="BUS_DangTra.cs" />
-    <Compile Include="BUS_DocGia.cs" />
-    <Compile Include="BUS_LichSu.cs" />
-    <Compile Include="BUS_MatKhau.cs" />
-    <Compile Include="BUS_PhieuMuon.cs" />
-    <Compile Include="BUS_PhieuTra.cs" />
-    <Compile Include="BUS_Sach.cs" />
-    <Compile Include="BUS_SachDangMuon.cs" />
-    <Compile Include="BUS_ThanhVien.cs" />
+    <Compile Include="DocGia.cs" />
+    <Compile Include="PhieuMuon.cs" />
+    <Compile Include="PhieuTra.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\QuanLyThuVien\DAO\DAO.csproj">
-      <Project>{ef5f75d8-d563-40b0-8b6e-29aa7df987aa}</Project>
-      <Name>DAO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\QuanLyThuVien\DTO\DTO.csproj">
-      <Project>{652c760e-03fe-400b-b8a1-55d634921add}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
+    <Compile Include="Sach.cs" />
+    <Compile Include="ThanhVien.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
